@@ -729,7 +729,7 @@ s32 bsp_disp_get_screen_width_from_output_type(u32 disp, u32 output_type, u32 ou
 		case DISP_TV_MOD_720P_50HZ:
 		case DISP_TV_MOD_720P_60HZ:
 			width = 1280;
-			height = 720;
+			height = 1024;
 			break;
 		case DISP_TV_MOD_1080P_50HZ:
 		case DISP_TV_MOD_1080P_60HZ:
@@ -781,7 +781,7 @@ s32 bsp_disp_get_screen_height_from_output_type(u32 disp, u32 output_type, u32 o
 		case DISP_TV_MOD_720P_50HZ:
 		case DISP_TV_MOD_720P_60HZ:
 			width = 1280;
-			height = 720;
+			height = 1024;
 			break;
 		case DISP_TV_MOD_1080P_50HZ:
 		case DISP_TV_MOD_1080P_60HZ:

@@ -163,7 +163,7 @@ static __s32 Parse_DTD_Block(__u8 *pbuf)
 		if ((sizex== 720) && (sizey == 480)) {
 			//Device_Support_VIC[HDMI480P] = 1;
 		}
-		if ((sizex== 1280) && (sizey == 720)) {
+		if (sizex== 1280) {
 			Device_Support_VIC[HDMI720P_60] = 1;
 		}
 		if ((sizex== 1920) && (sizey == 540)) {
@@ -180,7 +180,7 @@ static __s32 Parse_DTD_Block(__u8 *pbuf)
 		if ((sizex== 720) && (sizey == 576)) {
 			Device_Support_VIC[HDMI576P] = 1;
 		}
-		if ((sizex== 1280) && (sizey == 720)) {
+		if (sizex== 1280) {
 			Device_Support_VIC[HDMI720P_50] = 1;
 		}
 		if ((sizex== 1920) && (sizey == 540)) {
